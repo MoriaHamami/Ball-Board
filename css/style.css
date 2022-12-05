@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    color: rgb(242, 204, 168);
+    font-family: 'Trebuchet MS', sans-serif;  
+}
+
+table {
+    margin-top: 20px;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.cell img {
+    width: 25px;
+    height: auto;
+}
+
+.floor {
+    background-color: gray;
+}
+
+.wall {
+    background-color: brown;
+}
+
+.collected-count,.balls-count{
+    display: inline;
+    background-color: rgb(163, 115, 57); 
+    color: rgb(104, 58, 15);
+    font-family: 'Trebuchet MS', sans-serif;  
+    padding: 4px;
+    border-radius: 7px;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+button{
+    background-color: rgb(163, 115, 57);
+    color: rgb(234, 198, 152);
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(121, 75, 18);
+}
+
+.hidden {
+    display: none;
+}
